@@ -25,12 +25,7 @@ resource "azurerm_resource_group" "rg2" {
   }
 }
 
-resource "azurerm_resource_group" "rg4" {
-  location = "centralus"
-  name     = "trainingcentral"
-}
 
-data "azurerm_resource_group" "rg3" {
-  name = "DemoRG"
-}
+
+
 
